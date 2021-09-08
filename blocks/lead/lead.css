@@ -1,0 +1,24 @@
+.lead {
+  color: white;
+  margin: 50px auto;
+  max-width: 984px;
+}
+
+@media screen and (max-width: 1279px) {
+  .lead {
+    width: calc(100vw*(928/1024));
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead {
+    width: calc(100vw*(928/1024));
+    min-width: 768px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    min-width: 100%;
+  }
+}

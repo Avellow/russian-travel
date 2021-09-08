@@ -1,0 +1,12 @@
+.photo-grid__item {
+  line-height: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid__item {
+    width: calc(100vw*(288/320));;
+    display: block;
+    margin-bottom: 12px;
+  }
+}
+
