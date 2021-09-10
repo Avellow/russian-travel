@@ -4,10 +4,14 @@
 
 @media screen and (max-width: 611px) {
   .place__item_type_img {
-    max-width: 360px;
-    width: 100%;
+    width: calc(100%*(288/320));
   }
 }
 
-
+@media screen and (max-width: 490px) {
+  .place__item_type_img {
+    width: 100%;
+    max-width: 442px;
+  }
+}
 

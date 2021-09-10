@@ -1,24 +1,33 @@
 .places {
 
   max-width: 984px;
-  margin: 50px auto;
+  margin: 91px auto;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
   .places {
     width: calc(100%*(928/1024));
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1023px) and (min-width: 768px) {
   .places {
     width: calc(100%*(720/768));
     max-width: 928px;
   }
 }
 
+@media screen and (max-width: 767px) and (min-width: 612px) {
+  .places {
+    --side-margin: calc(100% * (16/320));
+    margin: 88px var(--side-margin);
+    max-width: calc(100%*(288/320));
+  }
+}
+
 @media screen and (max-width: 500px) {
   .places {
     width: 100%;
+    margin-bottom: min(calc(100%*(66/320)), 88px);
   }
 }
