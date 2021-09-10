@@ -2,7 +2,7 @@
   line-height: 0;
 }
 
-@media screen and (max-width: 501px) {
+@media screen and (max-width: 611px) {
   .place__item_type_img {
     max-width: 360px;
     width: 100%;

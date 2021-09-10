@@ -1,6 +1,33 @@
 .intro {
   color: white;
-  width: 690px;
-  
+  max-width: 984px;
+  margin: 92px auto;
+}
 
+@media screen and (max-width: 1279px) {
+  .intro {
+    width: calc(100vw*(928/1024));
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .intro {
+    width: calc(100%*(720/768));
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+  .intro {
+    --side-margin: calc(100% * (16/320));
+    margin: 88px var(--side-margin);
+    max-width: calc(100%*(288/320));
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .intro {
+    width: 100%;
+    
+  }
 }

@@ -15,8 +15,3 @@
   }
 }
 
-@media screen and (max-width: 600px) and (min-width: 502px) {
-  .place__text {
-    font-size: 13px;
-  }
-}

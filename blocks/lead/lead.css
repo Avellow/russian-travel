@@ -1,6 +1,6 @@
 .lead {
   color: white;
-  margin: 50px auto;
+  margin: 0 auto;
   max-width: 984px;
 }
 
@@ -12,8 +12,9 @@
 
 @media screen and (max-width: 1023px) {
   .lead {
-    width: calc(100vw*(928/1024));
+    width: calc(100vw*(720/768));
     min-width: 768px;
+    max-width: 928px;
   }
 }
 

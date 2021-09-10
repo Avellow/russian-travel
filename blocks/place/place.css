@@ -24,15 +24,14 @@
   }
 }
 
-@media screen and (max-width: 767px) and (min-width: 501px) {
+@media screen and (max-width: 767px) and (min-width: 612px) {
   .place {
     --max-first-column-width: minmax(270px, calc(100%*(340/720)));
     column-gap: 28px;
-    
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 611px) {
   .place {
     display: block;
   }

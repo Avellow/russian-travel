@@ -5,14 +5,14 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1023px) and (min-width: 768px) {
+@media screen and (max-width: 1023px) {
   .place__title {
     font-size: 42px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 365px) {
   .place__title {
-    font-size: 32px;
+    font-size: calc(100vw*(36/320));
   }
 }
