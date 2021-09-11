@@ -10,7 +10,12 @@
 <body>
   <div class="root">
     <header class="header">
-
+      <img class="header__logo" src="./images/header/logo.svg" alt="логотип">
+      <ul class="header__langs">
+        <li class="header__lang-link header__lang-link_active">Ru</li>
+        <li class="header__lang-link">En</li>
+      </ul>
+      
     </header>
 
     <main class="content">
@@ -184,12 +189,26 @@
       </section>
 
       <section class="cover">
-        <h2 class="hover__title">До Байкала «на собаках»</h2>
-        <p class="hover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+        <a class="photo" href="#">
+          <h2 class="photo__title">До Байкала «на&nbsp;собаках»</h2>
+          <p class="photo__subtitle">По мотивам учебной темы о Транссибе — 
+            путешествие от столицы до Байкала на электричках.</p>
+        </a>
       </section>
-
-
     </main>
+
+    <footer class="footer">
+      <nav class="footer__navigation">
+        <ul class="footer__menu">
+          <li><a class="footer__link" href="#">Карты</a></li>
+          <li><a class="footer__link" href="#">Погода</a></li>
+          <li><a class="footer__link" href="#">Расписание</a></li>
+          <li><a class="footer__link" href="#">Календарь</a></li>
+          <li><a class="footer__link" href="#">Путешествия</a></li>
+        </ul>
+      </nav>
+      <p class="footer__author">&copy;2021. Дмитрий Саврасов</p>
+    </footer>
 
 
   </div>

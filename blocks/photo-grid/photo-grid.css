@@ -39,6 +39,7 @@
     --min-side-margin: 16;
     margin: 0 var(--side-margin);
     max-width: 720px;
+    gap: 12px;
   }
 }
 

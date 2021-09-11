@@ -1,0 +1,16 @@
+.photo__title {
+  z-index: 1;
+  font-size: 72px;
+  line-height: 106%;
+  text-align: center;
+  max-width: 560px;
+  margin: 0 0 32px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .photo__title {
+    width: calc(100%*(288/320));
+    font-size: min(calc(100vw*(32/320)), 72px);
+  }
+}
