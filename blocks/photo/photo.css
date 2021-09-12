@@ -14,7 +14,6 @@
 .photo::after {
   content: "";
   position: absolute;
-  opacity: 0.3;
   top: 0;
   right: 0;
   bottom: 0;
