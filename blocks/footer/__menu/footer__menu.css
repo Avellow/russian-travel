@@ -1,9 +1,29 @@
 .footer__menu {
   display: grid;
-  grid-template-columns: repeat(5, auto);
+  --columns-num: 5;
+  grid-template-columns: repeat(var(--columns-num), auto);
   gap: 18px;
   list-style: none;
   padding: 0;
   margin: 0;
   align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__menu {
+    --columns-num: 3;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .footer__menu {
+    --columns-num: 2;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer__menu {
+    --columns-num: 1;
+    gap: 32px
+  }
 }

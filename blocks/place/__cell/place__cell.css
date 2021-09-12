@@ -1,10 +1,5 @@
-.place__item {
-  
-}
-
-
 @media screen and (max-width: 611px) {
-  .place__item {
+  .place__cell {
     width: calc(100%*(288/320));
     margin: 0 auto 32px;
   }

@@ -1,5 +1,5 @@
 @import url(./../vendor/normalize.css);
-@import url(./../fonts/inter.css);
+@import url(./../vendor/fonts.css);
 @import url(./../blocks/root/root.css);
 
 @import url(./../blocks/header/header.css);
@@ -7,11 +7,6 @@
 @import url(./../blocks/header/__langs/header__langs.css);
 @import url(./../blocks/header/__lang-link/header__lang-link.css);
 @import url(./../blocks/header/__lang-link/_active/header__lang-link_active.css);
-
-
-
-
-
 
 @import url(./../blocks/lead/lead.css);
 @import url(./../blocks/lead/__title/lead__title.css);
@@ -26,17 +21,17 @@
 @import url(./../blocks/intro/__list-item/intro__list-item.css);
 
 @import url(./../blocks/photo-grid/photo-grid.css);
-@import url(./../blocks/photo-grid/__item/photo-grid__item.css);
+@import url(./../blocks/photo-grid/__cell/photo-grid__cell.css);
 @import url(./../blocks/photo-grid/__img/photo-grid__img.css);
 
 @import url(./../blocks/places/places.css);
 @import url(./../blocks/place/place.css);
-@import url(./../blocks/place/__item/place__item.css);
-@import url(./../blocks/place/__title/place__title.css);
-@import url(./../blocks/place/__item/_type/place__item_type_website.css);
+@import url(./../blocks/place/__cell/place__cell.css);
+@import url(./../blocks/place/__cell/_type/place__cell_type_title.css);
+@import url(./../blocks/place/__cell/_type/place__cell_type_website.css);
+@import url(./../blocks/place/__cell/_type/place__cell_type_img.css);
 @import url(./../blocks/place/__link-subtitle/place__url-subtitle.css);
 @import url(./../blocks/place/__link/place__link.css);
-
 @import url(./../blocks/place/__item/_type/place__item_type_img.css);
 @import url(./../blocks/place/__img/place__img.css);
 @import url(./../blocks/place/__text/place__text.css);
@@ -45,9 +40,6 @@
 @import url(./../blocks/photo/photo.css);
 @import url(./../blocks/photo/__title/photo__title.css);
 @import url(./../blocks/photo/__subtitle/photo__subtitle.css);
-
-
-
 
 @import url(./../blocks/footer/footer.css);
 @import url(./../blocks/footer/__navigation/footer__navigation.css);

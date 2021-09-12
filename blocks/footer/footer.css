@@ -21,7 +21,12 @@
 
 @media screen and (max-width: 767px) and (min-width: 320px) {
   .footer {
-    padding-top: calc(100%*(16/320));
     max-width: calc(100%*(288/320));
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .footer {
+    display: block;
   }
 }

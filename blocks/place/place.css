@@ -6,7 +6,7 @@
   grid-template-columns: var(--max-first-column-width) auto;
   column-gap: 40px;
   row-gap: 48px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 
 @media screen and (max-width: 1279px) and (min-width: 1024px) {
@@ -20,7 +20,6 @@
   .place {
     --max-first-column-width: minmax(340px, calc(100%*(340/720)));
     column-gap: 28px;
-    
   }
 }
 

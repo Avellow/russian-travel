@@ -2,8 +2,9 @@
   max-width: 720px;
   margin: 56px auto 32px;
   font-size: 96px;
-  line-height: 104%;
+  line-height: 1.04;
   text-align: center;
+  text-rendering: optimizeLegibility;
 }
 
 @media screen and (max-width: 720px) {
