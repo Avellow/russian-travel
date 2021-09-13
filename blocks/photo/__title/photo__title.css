@@ -1,6 +1,7 @@
 .photo__title {
   z-index: 1;
   font-size: 72px;
+  font-weight: 900;
   line-height: 1.06;
   text-align: center;
   max-width: 560px;
