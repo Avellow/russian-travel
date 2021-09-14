@@ -18,8 +18,7 @@
 
 @media screen and (max-width: 767px) and (min-width: 612px) {
   .places {
-    --side-margin: calc(100% * (16/320));
-    margin: 88px var(--side-margin);
+    margin: 88px var(--places-side-margin);
     max-width: calc(100%*(288/320));
   }
 }

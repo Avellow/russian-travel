@@ -15,7 +15,6 @@
 
 @media screen and (max-width: 767px) {
   .lead__img-subtitle {
-    --side-margin: calc(100% * (16/320));
-    margin-left: var(--side-margin);
+    margin-left: var(--lead-side-margin);
   }
 }

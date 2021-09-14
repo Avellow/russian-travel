@@ -1,27 +1,51 @@
 :root {
   --min-page-width: 1280;
   --min-side-margin: 48;
-  
+  --lead-side-margin: calc(100% * (16/320));
+  --grid-min-page-width: 1280;
+  --grid-min-side-margin: 48;
+  --grid-side-margin: calc(100%*var(--grid-min-side-margin)/var(--grid-min-page-width));
+  --place-max-first-column-width: 460px;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
   :root {
-    --min-page-width: 1024;
-    --min-side-margin: 24;
+    --place-max-first-column-width: minmax(440px, calc(100%*(440/948)));
+    --grid-min-page-width: 1024;
   }
 }
 
-
-
-.lead__img-subtitle {
-  --side-margin: calc(100% * (16/320)); /*lead__img-subtitle*/
+@media screen and (max-width: 1023px) and (min-width: 990px) {
+  :root {
+    --grid-min-page-width: 1024;
+    --grid-min-side-margin: 24;
+  }
 }
 
-.photo-grid {
-  --min-page-width: 1280;
-  --min-side-margin: 48;
-  --side-margin: calc(100%*var(--min-side-margin)/var(--min-page-width));
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  :root {
+    --place-max-first-column-width: minmax(340px, calc(100%*(340/720)));
+  }
 }
 
-/*тут же оформляем медиазпросы и вписываем в них блоки/элtменты
-для переопределения переменных*/
+@media screen and (max-width: 989px) and (min-width: 768px) {
+  :root {
+    --grid-min-page-width: 768;
+    --grid-min-side-margin: 24;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 612px) {
+  :root {
+    --place-max-first-column-width: minmax(270px, calc(100%*(340/720)));
+    --places-side-margin: calc(100% * (16/320));
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+  :root {
+    --lead-side-margin: calc(100% * (16/320));
+    --grid-min-page-width: 320;
+    --grid-min-side-margin: 16;
+  }
+}

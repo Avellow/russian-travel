@@ -1,6 +1,8 @@
 .cover__photo-link {
-  background-image: url(./../../../images/cover/background.png);
+  background-image: url(./../../../images/cover/background.jpg);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   min-height: min(calc(100vw / 1.6), 740px);
   flex-direction: column;
