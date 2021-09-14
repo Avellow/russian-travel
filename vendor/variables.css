@@ -1,0 +1,27 @@
+:root {
+  --min-page-width: 1280;
+  --min-side-margin: 48;
+  
+}
+
+@media screen and (max-width: 1279px) {
+  :root {
+    --min-page-width: 1024;
+    --min-side-margin: 24;
+  }
+}
+
+
+
+.lead__img-subtitle {
+  --side-margin: calc(100% * (16/320)); /*lead__img-subtitle*/
+}
+
+.photo-grid {
+  --min-page-width: 1280;
+  --min-side-margin: 48;
+  --side-margin: calc(100%*var(--min-side-margin)/var(--min-page-width));
+}
+
+/*тут же оформляем медиазпросы и вписываем в них блоки/элtменты
+для переопределения переменных*/

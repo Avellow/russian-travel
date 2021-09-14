@@ -1,4 +1,4 @@
-.photo__title {
+.cover__title {
   z-index: 1;
   font-size: 72px;
   font-weight: 900;
@@ -11,7 +11,7 @@
 
 
 @media screen and (max-width: 767px) {
-  .photo__title {
+  .cover__title {
     width: calc(100%*(288/320));
     font-size: min(calc(100vw*(32/320)), 72px);
     margin-bottom: min(calc(100%*(16/320)), 32px);

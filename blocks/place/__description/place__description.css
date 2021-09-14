@@ -1,0 +1,6 @@
+@media screen and (max-width: 611px) {
+  .place__description {
+    width: calc(100%*(288/320));
+    margin: 0 auto 32px;
+  }
+}

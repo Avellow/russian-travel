@@ -1,4 +1,4 @@
-.place__cell_type_title {
+.place__title {
   font-size: 72px;
   font-weight: 900;
   line-height: 1.07;
@@ -7,19 +7,20 @@
 }
 
 @media screen and (max-width: 1023px) {
-  .place__cell_type_title {
+  .place__title {
     font-size: 42px;
   }
 }
 
 @media screen and (max-width: 611px) {
-  .place__cell_type_title {
+  .place__title {
+    width: calc(100%*(288/320));
     margin: 0 auto 32px;
   }
 }
 
 @media screen and (max-width: 365px) {
-  .place__cell_type_title {
+  .place__title {
     font-size: calc(100vw*(36/320));
   }
 }

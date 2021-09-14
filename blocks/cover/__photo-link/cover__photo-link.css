@@ -1,5 +1,5 @@
-.photo {
-  background-image: url(./../../images/cover/background.png);
+.cover__photo-link {
+  background-image: url(./../../../images/cover/background.png);
   background-size: cover;
   display: flex;
   min-height: min(calc(100vw / 1.6), 740px);
@@ -11,19 +11,19 @@
   position: relative;
 }
 
-.photo::after {
+.cover__photo-link::after {
   content: "";
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(0, 0, 0);
+  background-color: #2A2C2F;
   opacity: 0.3;
   transition: opacity 0.6s ease-in-out;
 }
 
-.photo:hover::after {
+.cover__photo-link:hover::after {
   cursor: pointer;
   opacity: 0.8;
 }

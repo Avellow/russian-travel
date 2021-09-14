@@ -1,4 +1,4 @@
-.photo__subtitle {
+.cover__subtitle {
   z-index: 1;
   font-size: 18px;
   line-height: 1.22;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .photo__subtitle {
+  .cover__subtitle {
     width: calc(100%*(288/320));
     font-size: min(calc(100vw*(14/320)), 16px);
   }
