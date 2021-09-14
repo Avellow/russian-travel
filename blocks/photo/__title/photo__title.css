@@ -14,5 +14,6 @@
   .photo__title {
     width: calc(100%*(288/320));
     font-size: min(calc(100vw*(32/320)), 72px);
+    margin-bottom: min(calc(100%*(16/320)), 32px);
   }
 }
